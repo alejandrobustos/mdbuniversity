@@ -10,4 +10,6 @@ Now you will be prompted to a # console inside the container. Type "mongod" to s
 
 Then you should be able to connect from the host by typing "mongo" on the terminal. If you remapped the port use "mongo --port 27117"
 
+Whenever you want to start the container just do "docker start -ia mdbxdba".
+
 Just in case, root password is set to "toor" on the container.
